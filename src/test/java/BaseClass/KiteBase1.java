@@ -15,6 +15,7 @@ public void initilizeBrowser() {
 	driver.manage().window().maximize();
 	//implicitly wait
 	driver.manage().timeouts().implicitlyWait(Duration.ofSeconds(25));
+	system.out.prinln("prashant");
 	
 }
 }
